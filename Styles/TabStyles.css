@@ -272,6 +272,7 @@ background-color: white;
 box-sizing: border-box;
 margin: 6px 0;
 transition: 0.4s;
+  z-index:100;
 }
 
 .clickedMenu .barMenu_1 {
