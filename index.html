@@ -32,6 +32,13 @@
         <div class="itemMenu">
           About Us
         </div>
+
+        <div class="iconMenu" onclick="clickedMenu(this)">
+          <div class="barMenu_1"></div>
+          <div class="barMenu_2"></div>
+          <div class="barMenu_3"></div>
+        </div>
+        
       </div>
     </div>
     <div class="baseHeroText z-2 flex">
@@ -51,5 +58,14 @@
     </div>
     </div>
 
+
+    
+    <script> 
+
+    function clickedMenu(button){
+      button.classList.toggle("clickedMenu")
+    }
+    
+    </script>
   </body>
 </html>
