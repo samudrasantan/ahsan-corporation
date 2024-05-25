@@ -173,7 +173,7 @@ body {
 
 .heroImage img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -226,9 +226,8 @@ border: 1px solid rgba(212, 175, 55, .8);
 
 .polka {
 
-  background-image: radial-gradient(var(--darkLeaves) 1px, transparent 1px);
+background-image: radial-gradient(var(--darkLeaves) 1px, transparent 1px);
 background-size: 2px 2px;
-background-color: rgba(13, 57, 21, 0);
 
 }
 
