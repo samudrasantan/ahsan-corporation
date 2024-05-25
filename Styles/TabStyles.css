@@ -164,6 +164,20 @@
     opacity: .4;
     
   }
+
+.polka {
+
+  background-image: radial-gradient(var(--darkLeaves) 1px, transparent 1px);
+background-size: 2px 2px;
+background-color: rgba(13, 57, 21, 0);
+
+}
+
+.tv{
+
+background-image: repeating-linear-gradient(0deg, var(--darkLeaves), var(--darkLeaves) 1px, transparent 1px, transparent);
+background-size: 2px 2px;
+}
   
   .heroImage {
     position: absolute;
